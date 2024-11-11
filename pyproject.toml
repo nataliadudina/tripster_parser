@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "tripster-parser"
+version = "0.1.0"
+description = ""
+authors = ["Natalia <307heito@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+environs = "^11.0.0"
+pyautogui = "^0.9.54"
+pywhatkit = "^5.4"
+telegram-send = "^0.37"
+
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.13.0"
+types-requests = "^2.32.0.20241016"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 119
+
+[tool.mypy]
+disallow_untyped_defs = true
+ignore_missing_imports = true
+warn_return_any = true
