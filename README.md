@@ -69,7 +69,6 @@ WhatsApp.
 Для корректной работы скрипта необходимо создать файл .env в корневой директории проекта со следующим содержимым:
 <pre>
 TOKEN  = ваш_персональный_token 
-  
 URL = URL_API
 </pre>
 
@@ -78,4 +77,5 @@ URL = URL_API
 * Парсер может быть использован как часть системы управления заказами или для интеграции с другими сервисами.
 * Для работы скрипта требуется доступ к API Трипстера:
   [Получить токен для доступа к API](https://experience.tripster.ru/help_center/guides/orders/how_to_work/63/)
+  
   [Документация](https://docs.google.com/document/d/1AoS7hvlphYbDc7Bi3lTVLFde_zKa9KgQZH-AiwPz32k/edit?tab=t.0#heading=h.p8az02kk7rud)
